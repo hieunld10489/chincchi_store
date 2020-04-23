@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <title>Index View</title>
+        <link rel="stylesheet" href="{{ asset('web/css') ~ '/login.css' }}" />
+    </head>
+
+    <body>
+
+      <div class="header-right">
+        <div class="header-navi" onclick="logout('{{ path('user_logout') }}')">Logout</div>
+      </div>
+
+      <h1>Test index</h1>
+    </body>
+</html>

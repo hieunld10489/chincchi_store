@@ -1,0 +1,27 @@
+# This file is auto-generated during the composer install
+parameters:
+    mailer_transport: smtp
+    mailer_host: localhost
+    mailer_user: null
+    mailer_password: null
+    locale: "vi_VN.UTF-8"
+    secret: ThisTokenIsNotSoSecretChangeIt
+    database_driver: pdo_mysql
+
+    database_host: localhost
+    database_port: 3306
+    database_name: chincchi_store
+    database_user: chincchi_user
+    database_password: admin123
+    database_host_slave1: localhost
+    database_port_slave1: 3306
+    database_name_slave1: chincchi_store
+    database_user_slave1: chincchi_user
+    database_password_slave1: admin123
+
+
+    database_host_log: log
+    database_port_log: 3306
+    database_name_log: log
+    database_user_log: root
+    database_password_log: null

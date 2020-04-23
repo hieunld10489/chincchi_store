@@ -1,0 +1,102 @@
+model: Sof\ApiBundle\Entity\Module
+tags: [ test, dev ] # optional parameter
+fixtures:
+    module1:
+        name: "profile"
+        icon_cls: 'profile-shortcut'
+        sort: 1
+        module: 'profile-form'
+        deleted_at: null
+        created_by: 1
+        updated_by: 1
+        deleted_by: null
+    module2:
+        name: "user management"
+        icon_cls: 'user-shortcut'
+        sort: 2
+        module: 'user-list'
+        deleted_at: null
+        created_by: 1
+        updated_by: 1
+        deleted_by: null
+    module3:
+        name: "driver management"
+        icon_cls: 'driver-shortcut'
+        sort: 3
+        module: 'driver-list'
+        deleted_at: null
+        created_by: 1
+        updated_by: 1
+        deleted_by: null
+    module4:
+        name: "customer management"
+        icon_cls: 'customer-shortcut'
+        sort: 4
+        module: 'customer-list'
+        deleted_at: null
+        created_by: 1
+        updated_by: 1
+        deleted_by: null
+    module5:
+        name: "product management"
+        icon_cls: 'product-shortcut'
+        sort: 5
+        module: 'product-list'
+        deleted_at: null
+        created_by: 1
+        updated_by: 1
+        deleted_by: null
+    module6:
+        name: "unit management"
+        icon_cls: 'unit-shortcut'
+        sort: 6
+        module: 'unit-list'
+        deleted_at: null
+        created_by: 1
+        updated_by: 1
+        deleted_by: null
+    module7:
+        name: "invoices management"
+        icon_cls: 'invoices-shortcut'
+        sort: 7
+        module: 'invoices-list'
+        deleted_at: null
+        created_by: 1
+        updated_by: 1
+        deleted_by: null
+    module8:
+        name: "liabilities management"
+        icon_cls: 'liabilities-shortcut'
+        sort: 8
+        module: 'liabilities-list'
+        deleted_at: null
+        created_by: 1
+        updated_by: 1
+        deleted_by: null
+    module9:
+        name: "distributor management"
+        icon_cls: 'distributor-shortcut'
+        sort: 9
+        module: 'distributor-list'
+        deleted_at: null
+        created_by: 1
+        updated_by: 1
+        deleted_by: null
+    module10:
+        name: "delivery management"
+        icon_cls: 'delivery-shortcut'
+        sort: 10
+        module: 'delivery-list'
+        deleted_at: null
+        created_by: 1
+        updated_by: 1
+        deleted_by: null
+    module11:
+        name: "report"
+        icon_cls: 'report-shortcut'
+        sort: 11
+        module: 'report'
+        deleted_at: null
+        created_by: 1
+        updated_by: 1
+        deleted_by: null
